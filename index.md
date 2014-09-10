@@ -1,0 +1,259 @@
+---
+title       : Chapter Four -- Measuring Central Tendency
+subtitle    : Soc 303 Lecture Notes 5 9/10/14
+author      : Sherri Verdugo, M.S.
+job         : Instructor, CSUF
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : [mathjax, quiz, bootstrap] # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Administration Items
+
+1. Attendance (pass the roster around please)
+2. Writing Assignment Draft (visit course website for information)
+3. Chapter 4--Measuring Central Tendency
+4. Next Week -- Chapters 5 and 6
+5. Organize your notes and items as the semester is moving forward to limit your stress levels!
+
+--- .class #id 
+
+## Key Concepts One
+
+Term                         | Pg| Brief Definition
+-----------------------------|---|----------------------------------------------------------
+Measures of Central Tendency | 84| averages or measures of location that reflects the middle
+Measures of Dispursion       | 84| measures concerning the spread or dispursion around the mean
+Mean/Arithmetic Mean         | 85| one form of the average accounting for distances of scores
+Summation symbol ($\Sigma$)  | 86| Greek symbol: capital sigma $\Sigma$ indicates summing
+$\bar{x}$ and $\bar{y}$      | 86| the mean value of a variable x or y (what is under the bar)
+Median (Md.)                 | 90| equal scores greater and less than the median (middle)
+Median Position (Md. Pos.)   | 90| person, place, or thing possessing the median position
+Array                        | 91| a listing from highest to lowest or lowest to highest
+Cumulative Frequency (cf)    | 95| determines which value of x is the median by frequencies
+Mode                         | 98| most frequent case
+Modal class/ modal category  | 99| most frequent case for grouped data
+x-axis                       |100| horizontal line @ the graph botom perpendicular to y-axis
+f or y -axis                 |101| vertical line @ the graph left side perpendicular to x-axis
+
+*3 Measures of Central Tendency: Mean, Median, and Mode or M^3*
+
+--- .class #id 
+
+## Key Concepts Two
+
+Term                         | Pg| Definition
+-----------------------------|---|--------------------------------------
+Origin of a Graph            |100| point where the x-axis and y-axis intersect
+Frequency Polygon            |101| connecting dots by drawing a straight line as x increases
+Histogram                    |101| graph of bars reprsenting frequency of scores
+Smooth Curve                 |101| curved line fitting through the dots not a straight line
+Continuous Variable          |103| not limited to a finite number of scores
+Unimodal Freq. Distribution  |103| distribution with one mode
+Bimodal Freq. Distribution   |103| distribution with two modes
+Trimodal Freq. Distribution  |103| distribution with three modes
+Modality                     |103| number of modes found in the frequency distribution
+Skewness                     |107| extent to which the frequency deviates from symmetry
+Symmetry                     |107| balance between the right and left halves of the curve
+Symmetric Freq. Distribution |107| frequency distribution with no skewness
+
+*3 Measures of Central Tendency: Mean, Median, and Mode or M^3*
+
+--- .class #id 
+
+## Key Concepts Three
+
+Term                         | Page | Definition
+-----------------------------|------|--------------------------------------
+Positively Skewed (right)    |      |
+Negatively Skewed (left)     |      |
+Stem & Leaf Diagram          |      |
+Boxplot Graph                |      |
+Box & Whisker Graph          |      |
+Fractiles                    |      |
+Quartiles                    |      |
+Deciles                      |      |
+Percentiles                  |      |
+
+*3 Measures of Central Tendency: Mean, Median, and Mode or M^3*
+
+--- .class #id 
+
+## Prologue
+
+This chapter is the first introduction into the mathematical concepts of statistics. If I want to measure something in a sample from the population, how would I go about it? Perhaps I would want to look at the measures of central tendency and how the numbers behave as a group. Be careful with the equations so that you know what they are used for. 
+
+--- .class #id 
+
+## Central Tendency
+
+* Mean, Median and Mode
+
+### The Arithmetic Mean
+
+Sophisticated and classy method of the three measures of central tendency
+
+Formula: $\bar{x} = \frac{\Sigma}{n}$ where $\Sigma$ = the sum of all the values and n = number of cases
+
+Example Page 85: 
+
+Group A ($\bar{A}$): {8, 8, 8, 7, 7, 7, 6, 6, 6} where n = 9 (you count the items)
+$\bar{A} = \frac{63}{9} = 7$ 
+
+Group B ($\bar{B}$): {9, 9, 8, 8, 8, 7, 7, 7, 6, 6} where n = 10 (you count the items)
+$\bar{B} = \frac{75}{10} = 7.5$
+
+Based on the mean...which group did better? 
+
+Would changing *n* make a difference? 
+
+--- .class #id
+
+## Frequency Methods for Mean
+
+Using Group A Data again:
+
+Group A ($\bar{A}$): {8, 8, 8, 7, 7, 7, 6, 6, 6} where n = 9 (you count the items)
+$\bar{A} = \frac{63}{9} = 7$
+
+Frequencies: we can group similar data points...8, 7, and 6...we add up the frequencies this time.
+
+x =  | $f$ = | $fx$ =
+-----|-------|-------
+8    | 3     | 24
+7    | 3     | 21
+6    | 3     | 18
+
+n = 9 and $\Sigma fx =63$ or 24 + 21 + 18 = 63
+
+$\bar{A} = \frac{\Sigma fx}{n} = \frac{63}{9} = 7.0$
+
+--- .class #id
+
+## Summation Symbol and Checkpoints using the Mean
+
+The summation symbol is a way of statisticians, mathameticians and programmers to write "please add up all the items from the first entry to the very last entry." Using the professional way, we would write this as:
+
+$\bar{x} = \frac{\Sigma_{i=1}^{n}X_i}{n}$ = $\frac{x_1+x_2+...x_n}{n}$
+
+For this class we are using: $\bar{X} = \frac{\Sigma X}{n}$
+
+Using Group A Data we can write this as: 
+
+$\bar{A} = \frac{x_1 + x_2 +...+x_9}{9}$ 
+
+or simply: $\bar{A} = \frac{6+6+6+7+7+7+8+8+8}{9} = \frac{63}{9} = 7.00$
+
+Check your work: Box 4.2 Page 89 For individual and ungrouped data points: $\Sigma(x-\bar{x})=0$ 
+
+Check your work: Box 4.2 Page 89 For Grouped Frequencies: $\Sigma[(x - \bar{x})f] = 0$
+
+--- .class #id
+
+## The Median: Odd
+
+When the number of items in an array are ODD we use the following approach to find the middle
+by locating the median position (middle position): Median does not always equal the Mean!
+
+**Equation**: $Md. Pos. = \frac{n+1}{2}$ For Group A we have $Md. Pos. = \frac{9+1}{2} = 5$
+
+i =          | x =
+-------------|-----
+9            | 8
+8            | 8
+7            | 8
+6            | 7
+5 *Md. Pos.* | 7 *MD.*
+4            | 7
+3            | 6
+2            | 6
+1            | 6
+
+--- .class #id
+
+## The Median: Even
+
+When the number of items in an array are EVEN we use the following approach to find the middle
+by: 1) locating the median position (middle position) and 2) add the score above and below the Md. Pos. then divide by 2. **Equation**: $Md. = \frac{score above + score below}{2}$. For Group B Md. Pos. = $\frac{n+1}{2} = \frac{10+1}{2} = \frac{11}{2} = 5.5$. The Median = $\frac{7+8}{2}=\frac{15}{2}=7.5$
+
+i =          | x =
+-------------|----------
+10           | 9
+9            | 9
+8            | 8
+7            | 8
+**6**        | **8**
+**5**        | **7**
+4            | 7
+3            | 7
+2            | 6
+1            | 6
+
+
+--- .class #id
+
+## Cumulative Frequency
+
+A way to account for all the frequencies generated up to a specific value of x. It is used to determine which value of x is at the median position. This is great for large data sets. 
+
+For now, let's work though the example on page 97 in the textbook.
+
+Next, take a moment at this point to partner up and work with SPSS using the ICU data file located on the course website in this week's folder and on the github repository. We will work on this together:
+
+http://libguides.library.kent.edu/SPSS/ImportData
+
+Find the Mean, Median and Cumulative Frequency for the Age Variable.
+
+Min. | 1st Quarter | Median | Mean | 3rd Quarter | Max
+-----|-------------|--------|------|-------------|-----
+16.0 |    46.8     | 63.0   | 57.5 |    72.0     | 92.0
+
+
+--- .class #id
+
+## The Mode: Most Frequent
+
+**Mode**: A category of a variable that contains more cases than can be found in either category adjacent to it. You can have more than one mode or no mode (nothing is repeated).
+
+**Modal Class or Modal Category**: Where data have been grouped, a class interval or category that contains more cases than can be found in either category adjacent to it. 
+
+What is the mode? What is the modal category? Are these grouped or individual scores?
+
+Age Range | f =
+----------|-----
+50-59     | 3
+40-49     | 9
+30-39     | 4
+20-29     | 2
+10-19     | 7
+0-9       | 1
+Total     | $26$
+
+--- .class #id
+
+## Graphing Terms
+
+**Frequency polygon**: a straight line created by a connection of dots, as x increases.
+
+**Histogram**: graph in which bars are created from one-half unit below each value of x to one-half unit above that value. The y-axis indicates the frequency of each score's occurrence.
+
+**Smooth curve**: connection of dots similar to a frequency polygon but generated by a curved line fitting through the dots instead of a series of straight lines.
+
+**Continuous variable**: not limited to a finite number of scores.
+
+**Unimodal, bimodal, trimodal**: a distribution with one, two, and three modes.
+
+**Modality**: the number of modes found in the frequency distribution.
+
+*The mode is the only measure of central tendency that is appropriate for ALL LEVELS of measurement.* 
+
+https://github.com/verdu103/ExData_Plotting1/blob/master/README.md
+
+--- .class #id
+
+## Skewness
+
+--- .class #id

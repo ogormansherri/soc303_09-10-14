@@ -1,0 +1,30 @@
+Datafile Name: ICU
+Datafile Subjects: Medical
+Story Names:
+Reference:
+Authorization: Contact authors
+Description: The data consist of 200 subjects from a larger study on the survival of patients following admission to an adult intensive care unit (ICU). The study used logistic regression to predict the probability of survival for these patients until their discharge from the hospital. The dependent variable is the binary variable Vital Status (STA). Nineteen possible predictor variables, both discrete and continuous, were also observed.
+Number of cases: 200
+Variable Names:
+ID: ID number of the patient
+STA: Vital status (0 = Lived, 1 = Died)
+AGE: Patient's age in years
+SEX: Patient's sex (0 = Male, 1 = Female)
+RACE: Patient's race (1 = White, 2 = Black, 3 = Other)
+SER: Service at ICU admission (0 = Medical, 1 = Surgical)
+CAN: Is cancer part of the present problem? (0 = No, 1 = Yes)
+CRN: History of chronic renal failure (0 = No, 1 = Yes)
+INF: Infection probable at ICU admission (0 = No, 1 = Yes)
+CPR: CPR prior to ICU admission (0 = No, 1 = Yes)
+SYS: Systolic blood pressure at ICU admission (in mm Hg)
+HRA: Heart rate at ICU admission (beats/min)
+PRE: Previous admission to an ICU within 6 months (0 = No, 1 = Yes)
+TYP: Type of admission (0 = Elective, 1 = Emergency)
+FRA: Long bone, multiple, neck, single area, or hip fracture (0 = No, 1 = Yes)
+PO2: PO2 from initial blood gases (0 = >60, 1 = ²60)
+PH: PH from initial blood gases (0 = ³7.25, 1 <7.25)
+PCO: PCO2 from initial blood gases (0 = ²45, 1 = >45)
+BIC: Bicarbonate from initial blood gases (0 = ³18, 1 = <18)
+CRE: Creatinine from initial blood gases (0 = ²2.0, 1 = >2.0)
+LOC: Level of consciousness at admission (0 = no coma or stupor, 1= deep stupor, 2 = coma)
+The Data: This is a large datafile (about 17K). It is not presented here to save on download time. However, if you would like to view or download this datafile, select ICU Datafile.
